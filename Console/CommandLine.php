@@ -1010,7 +1010,6 @@ class Console_CommandLine
      */
     protected function parseToken($token, $result, &$args, $argc)
     {
-        $token = (string) $token;
         $last  = $argc === 0;
         if (!$this->_stopflag && $this->_lastopt) {
             if ($token !== null
